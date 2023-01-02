@@ -1,6 +1,6 @@
 package org.sarsandi.rajeev.validationdemo.controller;
 
-import jakarta.validation.Valid;
+
 import org.sarsandi.rajeev.validationdemo.dto.UserRequest;
 import org.sarsandi.rajeev.validationdemo.entity.User;
 import org.sarsandi.rajeev.validationdemo.exception.UserNotFoundException;
@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
