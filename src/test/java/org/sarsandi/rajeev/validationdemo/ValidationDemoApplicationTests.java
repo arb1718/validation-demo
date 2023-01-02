@@ -22,5 +22,8 @@ class ValidationDemoApplicationTests {
             .filter(name -> name.startsWith("j"))
             .collect(Collectors.toList());
     names.forEach(name -> System.out.println("Hello" + name));
+	System.out.println("Jenkins up");
   }
+  
+  
 }
